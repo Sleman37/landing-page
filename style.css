@@ -11,18 +11,19 @@ body {
     width: 100%;
 }
 
-.hero-upper {
+.hero-upper,
+.hero-lower {
     display: flex;
     justify-content: space-between;
     margin: 0 15%;
+}
+
+.hero-upper {
     margin-top: 20px;
     margin-bottom: 50px;
 }
 
 .hero-lower {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 15%;
     margin-bottom: 80px;
 }
 
@@ -36,11 +37,12 @@ body {
 .hero-small-text {
     font-size: 18px;
     color: #E5E7EB;
-    text-decoration: none;
+
 }
 
 .header-link {
     margin-left: 20px;
+    text-decoration: none;
 }
 
 .header-logo {
