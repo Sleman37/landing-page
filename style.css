@@ -73,6 +73,7 @@ body {
 .info-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 80px;
 }
 
 .info-image-container {
@@ -98,4 +99,25 @@ body {
     color: #1F2937;
     font-weight: 900;
     text-align: center;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin: 0 23%;
+}
+
+.quoter {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin: 0 23%;
 }
