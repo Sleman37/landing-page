@@ -40,6 +40,10 @@ body {
 
 }
 
+.hero-sign-up {
+    border: none;
+}
+
 .header-link {
     margin-left: 20px;
     text-decoration: none;
@@ -66,7 +70,7 @@ body {
 
 .btn {
     background-color: #3882F6;
-    border-radius: 15%;
+    border-radius: 7px;
     padding: 7px 30px;
 }
 
@@ -120,4 +124,26 @@ body {
     font-weight: bold;
     align-self: flex-end;
     margin: 0 23%;
+}
+
+.action-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 50%; */
+    margin: 6% 12%;
+    padding: 40px 0;
+    border-radius: 7px;
+}
+
+.action-text {
+    margin: 4px 0;
+}
+
+
+.sign-up {
+    border: solid;
+    border-color: #F9FAF8;
+    height: 20%;
 }
